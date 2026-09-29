@@ -2,9 +2,8 @@
   --timeline-ink: #172640;
   --timeline-blue: #1455e8;
   --timeline-cyan: #13c8d5;
-  --timeline-coral: #13c8d5;
-  --timeline-yellow: #dceaff;
-  --timeline-lime: #8bdcf0;
+   --timeline-seashell-blue: #dceaff;
+  --timeline-fairy-blue: #8bdcf0;
   --timeline-paper: #f2f7ff;
   color: var(--timeline-ink);
   background-color: var(--timeline-paper);
@@ -36,7 +35,7 @@
     ),
     linear-gradient(160deg, #1766f4 0%, #123db8 100%);
   color: #fff;
-  border-right: 4px solid var(--timeline-yellow);
+  border-right: 4px solid var(--timeline-seashell-blue);
   box-shadow: 8px 0 28px rgba(18, 61, 184, 0.16);
 }
 
@@ -78,7 +77,7 @@
 .timeline-page .sidebar .accordion-button:not(.collapsed) {
   background: linear-gradient(
     110deg,
-    var(--timeline-yellow),
+    var(--timeline-seashell-blue),
     #b9e9f5
   ) !important;
   color: var(--timeline-ink) !important;
@@ -121,7 +120,7 @@
 .timeline-page .sidebar .nav-link:hover {
   transform: translateX(3px);
   border-color: rgba(255, 255, 255, 0.55);
-  background: var(--timeline-coral) !important;
+  background: var(--timeline-cyan) !important;
   color: #201c30 !important;
 }
 
@@ -185,10 +184,10 @@
   height: 9px;
   background: linear-gradient(
     90deg,
-    var(--timeline-coral) 0 24%,
-    var(--timeline-yellow) 24% 48%,
+    var(--timeline-cyan) 0 24%,
+    var(--timeline-seashell-blue) 24% 48%,
     var(--timeline-cyan) 48% 74%,
-    var(--timeline-lime) 74% 100%
+    var(--timeline-fairy-blue) 74% 100%
   );
 }
 
@@ -204,9 +203,9 @@
 .timeline-page .catpeople::before {
   background: linear-gradient(
     90deg,
-    var(--timeline-coral),
+    var(--timeline-cyan),
     #52c4e8,
-    var(--timeline-yellow)
+    var(--timeline-seashell-blue)
   );
 }
 
@@ -230,7 +229,7 @@
 }
 
 .timeline-page .timeline-p:first-letter {
-  color: var(--timeline-coral);
+  color: var(--timeline-cyan);
 }
 
 .timeline-page .link-container {
@@ -296,7 +295,7 @@
 
 .timeline-page #sliderTooltip {
   background: var(--timeline-blue) !important;
-  border: 2px solid var(--timeline-yellow);
+  border: 2px solid var(--timeline-seashell-blue);
   color: #fff !important;
   font-weight: 700;
 }
@@ -353,7 +352,7 @@
     max-height: 320px;
     padding: 66px 10px 12px;
     border-right: 0;
-    border-bottom: 4px solid var(--timeline-yellow);
+    border-bottom: 4px solid var(--timeline-seashell-blue);
   }
 
   .timeline-page .main {
