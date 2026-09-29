@@ -1,0 +1,112 @@
+/* =========================================================
+   SEARCH PAGE - KIOSK FRIENDLY VERSION
+   ========================================================= */
+.search-results {
+  border: 1px solid rgba(20, 85, 232, 0.2);
+  border-radius: 8px;
+  background: #fff;
+}
+html,
+body {
+  height: auto !important;
+  min-height: 100vh;
+}
+
+.search-page .search-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+
+  body {
+    overflow-y: scroll !important;
+    -webkit-overflow-scrolling: touch;
+    touch-action: pan-y;
+  }
+  /* CRITICAL FIX */
+  height: auto;
+  min-height: 100%;
+}
+/* Dropdown menu */
+.match-dropdown {
+  margin: 12px 0;
+  padding: 12px;
+  background: #eaf2ff;
+  border: 2px solid #1455e8;
+  border-radius: 8px;
+}
+
+.match-dropdown select {
+  padding: 8px 10px;
+}
+
+.match-dropdown button {
+  padding: 8px 12px;
+}
+
+/* Ensure the PAGE scrolls (not inner divs) */
+.search-page html,
+.search-page body {
+  overflow-y: auto !important;
+  height: auto;
+}
+
+/* Two-column layout */
+.search-page .search-container {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+
+  width: 90%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+
+  align-items: flex-start; /* prevents stretch issues */
+}
+
+/* LEFT SIDEBAR */
+.search-page .search-sidebar {
+  width: 30%;
+  padding: 16px;
+  background: linear-gradient(160deg, #eaf2ff 0%, #f8fbff 100%);
+  border: 1px solid rgba(20, 85, 232, 0.2);
+  border-radius: 8px;
+
+  /* REMOVE scrolling */
+  overflow: visible;
+  max-height: none;
+}
+
+/* RIGHT RESULTS */
+.search-page .search-results {
+  width: 70%;
+  padding: 4px;
+
+  /* REMOVE scrolling */
+  overflow: visible;
+  max-height: none;
+}
+
+/* Section divider */
+.search-page .search-section {
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-bottom: 2px solid rgba(20, 85, 232, 0.2);
+}
+
+.search-page .search-section:last-child {
+  border-bottom: none;
+}
+
+/* Page title */
+.search-page .search-title {
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 30px;
+  color: #1455e8;
+}
+
+/* Optional: smoother touch behaviour */
+body {
+  touch-action: pan-y;
+}
