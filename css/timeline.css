@@ -235,7 +235,7 @@
 
 .timeline-page .link-container {
   border: 1px solid rgba(20, 85, 232, 0.2);
-  border-left: 5px solid var(--timeline-cyan);
+  border-left: 5px solid var(--gold);
   border-radius: 8px;
   background: #e9fbff;
   box-shadow: none;
