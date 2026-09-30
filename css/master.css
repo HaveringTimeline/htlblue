@@ -223,11 +223,7 @@ figcaption {
   color: #16227f;
 }
 
-/* Arrow rotates when open but not needed now, arrow changes colour on hover -
-.accordion-button:not(.collapsed)::before {
-  transform: rotate(180deg);
-}
-*/
+
 /* Remove Bootstrap borders/shadows */
 .accordion-item {
   border: none !important;
@@ -279,7 +275,7 @@ figcaption {
 }
 
 .sidebar .accordion-button:not(.collapsed) {
-  background: linear-gradient(90deg, #dceaff 0%, #b9e9f5 100%) !important;
+  background: linear-gradient(90deg, #dceaff 0%, #df0c16 100%) !important;
   color: var(--opulent-blue) !important;
 }
 

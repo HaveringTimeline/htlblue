@@ -1,13 +1,14 @@
 .timeline-page {
+  
   --timeline-ink: #172640;
   --timeline-blue: #1455e8;
   --timeline-cyan: #13c8d5;
-  --timeline-seashell-blue: #dceaff;
+   --timeline-seashell-blue: #dceaff;
   --timeline-fairy-blue: #8bdcf0;
   --timeline-paper: #f2f7ff;
   color: var(--timeline-ink);
   background-color: var(--timeline-paper);
-  /* Turned of 30th Sept causing faint light lines in background-image:
+ /* Turned of 30th Sept causing faint light lines in background-image:
     repeating-linear-gradient(
       135deg,
       rgba(20, 85, 232, 0.035) 0 1px,
@@ -28,7 +29,13 @@
   scrollbar-width: none;
   z-index: 1020;
   background-color: var(--timeline-blue);
-  background-image: linear-gradient(160deg, #1766f4 0%, #123db8 100%);
+  background-image:
+    repeating-linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.035) 0 1px,
+      transparent 1px 8px
+    ),
+    linear-gradient(160deg, #1766f4 0%, #123db8 100%);
   color: #fff;
   border-right: 4px solid var(--timeline-seashell-blue);
   box-shadow: 8px 0 28px rgba(18, 61, 184, 0.16);
@@ -43,7 +50,7 @@
   padding: 0.75rem 0.85rem;
   border: 1px solid rgba(255, 255, 255, 0.22) !important;
   border-radius: 8px !important;
-  background: linear-gradient(110deg, #103ba9, #087ecb) !important;
+  background: linear-gradient(110deg, #db0719, #087ecb) !important;
   color: #fff !important;
   font-weight: 800;
   letter-spacing: 0.015em;
@@ -60,7 +67,7 @@
 
 .timeline-page .sidebar .accordion-button:hover {
   transform: translateX(3px);
-  background: linear-gradient(110deg, #00aebd, #f2bb06) !important;
+  background: linear-gradient(110deg, #00aebd, #f2bb06)!important;
   color: var(--timeline-ink) !important;
   box-shadow: 0 5px 0 rgba(0, 82, 118, 0.35) !important;
 }
@@ -73,8 +80,7 @@
   background: linear-gradient(
     110deg,
     var(--timeline-seashell-blue),
-    #b9e9f5
-  ) !important;
+    #e60637) !important;
   color: var(--timeline-ink) !important;
   box-shadow: 0 5px 0 rgba(138, 90, 0, 0.3) !important;
 }
