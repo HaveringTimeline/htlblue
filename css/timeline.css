@@ -50,7 +50,7 @@
   padding: 0.75rem 0.85rem;
   border: 1px solid rgba(255, 255, 255, 0.22) !important;
   border-radius: 8px !important;
-  background: linear-gradient(110deg, #db0719, #087ecb) !important;
+  background: linear-gradient(110deg, #dceaff, #087ecb) !important;
   color: #fff !important;
   font-weight: 800;
   letter-spacing: 0.015em;
@@ -67,7 +67,7 @@
 
 .timeline-page .sidebar .accordion-button:hover {
   transform: translateX(3px);
-  background: linear-gradient(110deg, #00aebd, #f2bb06)!important;
+  background: linear-gradient(110deg, #dceaff, #f2bb06)!important;
   color: var(--timeline-ink) !important;
   box-shadow: 0 5px 0 rgba(0, 82, 118, 0.35) !important;
 }
@@ -77,10 +77,7 @@
 }
 
 .timeline-page .sidebar .accordion-button:not(.collapsed) {
-  background: linear-gradient(
-    110deg,
-    var(--timeline-seashell-blue),
-    #e60637) !important;
+ background: linear-gradient(110deg, #f2bb06, #dceaff)!important;
   color: var(--timeline-ink) !important;
   box-shadow: 0 5px 0 rgba(138, 90, 0, 0.3) !important;
 }
@@ -121,7 +118,7 @@
 .timeline-page .sidebar .nav-link:hover {
   transform: translateX(3px);
   border-color: rgba(255, 255, 255, 0.55);
-  background:#f2bb06 !important;
+ background: linear-gradient(110deg, #f2bb06, #dceaff )!important;
   color: #201c30 !important;
 }
 
