@@ -14,8 +14,9 @@
       transparent 1px 18px
     ),
     linear-gradient(180deg, #f8fbff 0%, #eaf2ff 100%);
+    */
 }
-*/
+
 .timeline-page .sidebar {
   position: fixed;
   top: 0;
@@ -65,7 +66,7 @@
 
 .timeline-page .sidebar .accordion-button:hover {
   transform: translateX(3px);
-  background: linear-gradient(110deg, #00aebd, #f2bb06!important;
+  background: linear-gradient(110deg, #00aebd, #f2bb06)!important;
   color: var(--timeline-ink) !important;
   box-shadow: 0 5px 0 rgba(0, 82, 118, 0.35) !important;
 }
