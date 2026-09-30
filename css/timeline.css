@@ -121,7 +121,7 @@
 .timeline-page .sidebar .nav-link:hover {
   transform: translateX(3px);
   border-color: rgba(255, 255, 255, 0.55);
-  background: var(--timeline-cyan) !important;
+  background:#f2bb06 !important;
   color: #201c30 !important;
 }
 
