@@ -65,7 +65,7 @@
 
 .timeline-page .sidebar .accordion-button:hover {
   transform: translateX(3px);
-  background: linear-gradient(110deg, #00aebd, #ec0d20) !important;
+  background: linear-gradient(110deg, #00aebd, #f2bb06!important;
   color: var(--timeline-ink) !important;
   box-shadow: 0 5px 0 rgba(0, 82, 118, 0.35) !important;
 }
