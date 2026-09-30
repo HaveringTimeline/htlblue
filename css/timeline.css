@@ -102,11 +102,12 @@
 }
 
 .timeline-page .sidebar .nav-link {
+  background: linear-gradient(110deg, #dceaff, #087ecb) !important;
   padding: 0.58rem 0.65rem !important;
   margin: 0.18rem 0;
   border: 1px solid transparent;
   border-radius: 6px;
-  color: #fff !important;
+  color: #000 !important;
   font-size: 0.9rem !important;
   line-height: 1.35;
   transition:
@@ -118,7 +119,7 @@
 .timeline-page .sidebar .nav-link:hover {
   transform: translateX(3px);
   border-color: rgba(255, 255, 255, 0.55);
- background: linear-gradient(110deg, #f2bb06, #dceaff )!important;
+ background: linear-gradient(110deg, #dceaff, #f2bb06  )!important;
   color: #201c30 !important;
 }
 
