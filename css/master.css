@@ -1,4 +1,5 @@
 :root {
+  --gold: #f2bb06;
   --opulent-blue: #1455e8;
   --denim: #123db8;
   --robin-egg-blue: #13c8d5;
@@ -272,7 +273,7 @@ figcaption {
 }
 
 .sidebar .accordion-button:hover {
-  background: linear-gradient(90deg, #00aebd 0%, #13c8d5 100%) !important;
+  background: linear-gradient(90deg, #00aebd 0%, #f2bb06 100%) !important;
   color: var(--opulent-blue) !important;
   border-radius: 12px;
 }
@@ -673,8 +674,10 @@ body {
   color: #fff !important;
 }
 
+/*This is the hover for all the accordion buttons except the actual year button*/
 .sidebar .accordion-button:hover {
-  background: linear-gradient(110deg, #00aebd, #13c8d5) !important;
+
+  background: linear-gradient(110deg, #00aebd, #f2bb06) !important;
   color: var(--blue-zodiac) !important;
 }
 
