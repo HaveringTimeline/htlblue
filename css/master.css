@@ -677,7 +677,7 @@ body {
 /*This is the hover for all the accordion buttons except the actual year button*/
 .sidebar .accordion-button:hover {
 
-  background: linear-gradient(110deg, #00aebd, #f2bb06) !important;
+  background: linear-gradient(110deg, #00aebd, ##f2bb06) !important;
   color: var(--blue-zodiac) !important;
 }
 
