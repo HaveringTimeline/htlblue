@@ -1,14 +1,14 @@
 :root {
   --gold: #f2bb06;
-  --opulent-blue: #1455e8;
+  /* --opulent-blue: #1455e8; 
   --denim: #123db8;
-  --robin-egg-blue: #13c8d5;
+  --robin-egg-blue: #13c8d5;  
   --celadon-blue: #087eaa;
   --blue-zodiac: #172640;
   --panel: #ffffff;
   --panel-soft: #eaf2ff;
   --text: #172640;
-  --shadow-blue: #53657d;
+  --shadow-blue: #53657d; */
   --line: rgba(20, 85, 232, 0.16);
   --shadow-soft: 0 18px 45px rgba(18, 61, 184, 0.1);
   --shadow-card: 0 20px 50px rgba(18, 61, 184, 0.12);
@@ -20,7 +20,7 @@
 body {
   margin: 0;
   font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
-  color: var(--text);
+  color:#172640;
   background:
     radial-gradient(circle at top, rgba(19, 200, 213, 0.1), transparent 34%),
     linear-gradient(180deg, #f7faff 0%, #eaf2ff 100%);
@@ -48,7 +48,7 @@ body {
 /* Romhm text styles */
 .romhm-text {
   font-size: 0.92rem;
-  color: var(--opulent-blue);
+  color: #1455e8;
   margin: 1rem 0 1.2rem;
   padding: 0.8rem 1rem;
   font-weight: 700;
@@ -59,7 +59,7 @@ body {
     rgba(20, 85, 232, 0.08),
     rgba(19, 200, 213, 0.12)
   );
-  border-left: 4px solid var(--celadon-blue);
+  border-left: 4px solid#087eaa;
   border-radius: 10px;
   align-content: center;
 }
@@ -79,7 +79,7 @@ body {
 /* Copyright message styles */
 .copyright-text {
   font-size: 0.82rem;
-  color: var(--shadow-blue);
+  color:#53657d;
   margin-top: 1rem;
   font-weight: 700;
   text-align: center;
@@ -121,7 +121,7 @@ figcaption {
   margin: 1.2rem 0;
   padding: 1rem 1.1rem;
   border: 1px solid rgba(20, 85, 232, 0.16);
-  border-left: 4px solid var(--celadon-blue);
+  border-left: 4px solid#087eaa;
   border-radius: 14px;
   width: fit-content;
   max-width: 100%;
@@ -144,7 +144,7 @@ figcaption {
 }
 
 .link-container a:hover {
-  color: var(--opulent-blue);
+  color: #1455e8;
   text-decoration: underline;
 }
 
@@ -179,7 +179,7 @@ figcaption {
   height: 100vh;
   width: 250px;
   background: linear-gradient(160deg, #1766f4 0%, #123db8 100%);
-  color: var(--opulent-blue);
+  color: #1455e8;
   padding: 75px 12px 32px;
   border-right: 4px solid rgba(19, 200, 213, 0.8);
   overflow-y: auto;
@@ -202,7 +202,7 @@ figcaption {
 
 /* Global accordion-button look */
 .accordion-button {
-  color: var(--opulent-blue) !important;
+  color: #1455e8 !important;
   font-weight: 600;
   background-color: rgba(255, 255, 255, 0.42) !important;
   border-radius: 12px !important;
@@ -210,9 +210,9 @@ figcaption {
 }
 
 .accordion-button:not(.collapsed) {
-  color: var(--opulent-blue) !important;
+  color: #1455e8 !important;
   font-weight: 800 !important;
-  background-color: var(--panel-soft) !important;
+  background-color:#eaf2ff !important;
 
   .accordion-button:focus {
     box-shadow: none !important;
@@ -223,7 +223,6 @@ figcaption {
   color: #16227f;
 }
 
-
 /* Remove Bootstrap borders/shadows */
 .accordion-item {
   border: none !important;
@@ -232,12 +231,12 @@ figcaption {
 
 /* Global accordion-body style */
 .accordion-body {
-  background-color: var(--panel-soft);
+  background-color:#eaf2ff;
   /*Background for accordion-body when open */
 }
 
 .accordion-body p {
-  color: var(--opulent-blue);
+  color: #1455e8;
   font-weight: 500;
 }
 
@@ -247,7 +246,7 @@ figcaption {
 
 .accordion-body h2 {
   font-size: 25px !important;
-  color: var(--opulent-blue) !important;
+  color: #1455e8 !important;
   font-weight: 500 !important;
 }
 
@@ -256,11 +255,7 @@ figcaption {
    ========================================================= */
 
 .sidebar .accordion-button {
-  background: linear-gradient(
-    90deg,
-    var(--denim) 0%,
-    #303c4d 100%
-  ) !important;
+  background: linear-gradient(90deg, #123db8 0%, #303c4d 100%) !important;
   color: #f8f4ef !important;
   border-radius: 12px !important;
   font-weight: 700;
@@ -270,13 +265,13 @@ figcaption {
 
 .sidebar .accordion-button:hover {
   background: linear-gradient(90deg, #00aebd 0%, #f2bb06 100%) !important;
-  color: var(--opulent-blue) !important;
+  color: #1455e8 !important;
   border-radius: 12px;
 }
 
 .sidebar .accordion-button:not(.collapsed) {
   background: linear-gradient(90deg, #dceaff 0%, #df0c16 100%) !important;
-  color: var(--opulent-blue) !important;
+  color: #1455e8 !important;
 }
 
 .sidebar .accordion-body {
@@ -289,7 +284,7 @@ figcaption {
    ========================================================= */
 .sidebar .nav-link {
   padding: 0.7rem 0.9rem;
-  color: var(--opulent-blue);
+  color: #1455e8;
   transition: all 0.2s ease;
   font-size: 0.92rem !important;
   font-weight: 600;
@@ -305,7 +300,7 @@ figcaption {
     rgba(20, 85, 232, 0.06),
     rgba(19, 200, 213, 0.08)
   );
-  color: var(--denim);
+  color: #123db8;
   border-color: rgba(20, 85, 232, 0.18);
   border-radius: 10px;
   font-weight: 700;
@@ -383,12 +378,7 @@ figcaption {
   inset: 0 auto auto 0;
   width: 100%;
   height: 5px;
-  background: linear-gradient(
-    90deg,
-    var(--opulent-blue) 0%,
-    var(--robin-egg-blue) 48%,
-    var(--opulent-blue) 100%
-  );
+  background: linear-gradient(90deg, #1455e8 0%, #13c8d5 48%, #1455e8 100%);
   z-index: 1;
 }
 
@@ -405,7 +395,7 @@ figcaption {
 }
 
 .timeline-h1 {
-  color: var(--opulent-blue);
+  color: #1455e8;
   font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(1.8rem, 2vw, 2.5rem);
   text-align: center;
@@ -415,7 +405,7 @@ figcaption {
 }
 
 .timeline-p {
-  color: var(--blue-zodiac);
+  color:#172640;
   font-size: 1.06rem;
   line-height: 1.8;
   text-align: justify;
@@ -424,14 +414,14 @@ figcaption {
 
 .timeline-p:first-letter {
   font-weight: 700;
-  color: var(--opulent-blue);
+  color: #1455e8;
 }
 
 /* =========================================================
    LINK CONTAINER
    ========================================================= */
 .link-container::before {
-  color: var(--opulent-blue);
+  color: #1455e8;
   content: "Further reading\00a0";
   font-weight: 700;
   letter-spacing: 0.08em;
@@ -450,7 +440,7 @@ figcaption {
   width: 44px;
   height: 44px;
   border: none;
-  background: linear-gradient(135deg, var(--opulent-blue) 0%, #123db8 100%);
+  background: linear-gradient(135deg, #1455e8 0%, #123db8 100%);
   color: #fff;
   font-size: 22px;
   cursor: pointer;
@@ -467,7 +457,7 @@ figcaption {
 
 .scroll-arrow:hover {
   background: linear-gradient(135deg, #dceaff 0%, #13c8d5 100%);
-  color: var(--denim);
+  color: #123db8;
   transform: translateY(-2px) scale(1.04);
   box-shadow: 0 16px 26px rgba(18, 61, 184, 0.18);
 }
@@ -636,7 +626,7 @@ figcaption {
   /* Viewer-specific override: slightly smaller than site base. */
   font-size: 1.6rem;
   margin: 8px 0;
-  color: var(--opulent-blue);
+  color: #1455e8;
 }
 
 .timeline-viewer-body .timeline-p {
@@ -647,7 +637,7 @@ figcaption {
 }
 
 body {
-  color: var(--text);
+  color:#172640;
   background:
     radial-gradient(circle at top, rgba(19, 200, 213, 0.1), transparent 34%),
     linear-gradient(180deg, #f7faff 0%, #eaf2ff 100%);
@@ -662,7 +652,7 @@ body {
 .sidebar {
   background: linear-gradient(160deg, #1766f4 0%, #123db8 100%);
   color: #fff;
-  border-right: 4px solid var(--robin-egg-blue);
+  border-right: 4px solid#13c8d5;
 }
 
 .sidebar .accordion-button {
@@ -672,14 +662,13 @@ body {
 
 /*This is the hover for all the accordion buttons except the actual year button*/
 .sidebar .accordion-button:hover {
-
   background: linear-gradient(110deg, #00aebd, #f2bb06) !important;
-  color: var(--blue-zodiac) !important;
+  color:#172640 !important;
 }
 
 .sidebar .accordion-button:not(.collapsed) {
   background: linear-gradient(110deg, #dceaff, #b9e9f5) !important;
-  color: var(--blue-zodiac) !important;
+  color:#172640 !important;
 }
 
 .sidebar .accordion-body {
@@ -714,27 +703,27 @@ body {
 .timeline-p:first-letter,
 .accordion-body h2,
 .accordion-body p {
-  color: var(--opulent-blue) !important;
+  color: #1455e8 !important;
 }
 
 .timeline-p {
-  color: var(--blue-zodiac);
+  color:#172640;
 }
 
 .link-container {
   border-color: var(--line);
-  border-left-color: var(--celadon-blue);
+  border-left-color:#087eaa;
   background: linear-gradient(180deg, #fff 0%, #f2f7ff 100%);
 }
 
 .link-container a,
 a {
-  color: var(--opulent-blue);
+  color: #1455e8;
 }
 
 .link-container a:hover,
 a:hover {
-  color: var(--denim);
+  color: #123db8;
 }
 
 .scroll-arrow {
